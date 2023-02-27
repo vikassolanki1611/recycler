@@ -106,6 +106,8 @@ class MainFragment : Fragment() {
             when(response)
             {is NetworkState.Success -> {
                    if (response.body.response=="True"){
+                       binding.noData.visibility=View.GONE
+                       binding.listRv.visibility=View.VISIBLE
                        if (clearArray){
                            searchList.clear()
                            searchList=response.body.search
@@ -118,6 +120,10 @@ class MainFragment : Fragment() {
                            initRecycler(searchList)
                        }
                    }
+                else{
+                    binding.noData.visibility=View.VISIBLE
+                       binding.listRv.visibility=View.GONE
+                }
                 }
                 is NetworkState.Error<*> -> {
                      Toast.makeText(context, response.msg.toString(), Toast.LENGTH_SHORT).show()

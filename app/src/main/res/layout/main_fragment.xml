@@ -20,8 +20,18 @@
         android:layout_below="@+id/searchInput"
         android:layout_marginTop="20dp"
         app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
-        tools:itemCount="10"
         app:spanCount="2"
-        tools:listitem="@layout/item_list_row"/>
+        tools:itemCount="10"
+        tools:listitem="@layout/item_list_row" />
+
+    <TextView
+        android:id="@+id/noData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No Results Found"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_centerInParent="true"/>
 
 </RelativeLayout>
