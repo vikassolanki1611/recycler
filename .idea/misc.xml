@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/vikas solanki/Desktop/mine/RecyclerApplication/app/src/main/res/drawable/ic_no_image.xml" value="0.1435" />
+        <entry key="..\:/Users/vikas solanki/Desktop/mine/RecyclerApplication/app/src/main/res/layout/item_list_row.xml" value="0.4462962962962963" />
+        <entry key="..\:/Users/vikas solanki/Desktop/mine/RecyclerApplication/app/src/main/res/layout/main_fragment.xml" value="0.15760869565217392" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
